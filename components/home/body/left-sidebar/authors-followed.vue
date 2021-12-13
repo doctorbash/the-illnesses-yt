@@ -6,7 +6,7 @@
       </div>
       <div class="widget-body pb-1 pr-14">
         <div class="authors-followed-container flex gap-x-3 items-center">
-          <div class="rounded-full w-12 h-12 author-avatar">
+          <div class="rounded-full w-10 h-10 author-avatar">
             <img
               src="http://daisyui.com/tailwind-css-component-profile-1@56w.png"
               class="rounded-full"
@@ -19,7 +19,7 @@
       </div>
       <div class="widget-body pb-1 pr-14">
         <div class="authors-followed-container flex gap-x-3 items-center">
-          <div class="rounded-full w-12 h-12 author-avatar">
+          <div class="rounded-full w-10 h-10 author-avatar">
             <img
               src="http://daisyui.com/tailwind-css-component-profile-1@56w.png"
               class="rounded-full"
@@ -32,7 +32,7 @@
       </div>
       <div class="widget-body pb-1 pr-14">
         <div class="authors-followed-container flex gap-x-3 items-center">
-          <div class="rounded-full w-12 h-12 author-avatar">
+          <div class="rounded-full w-10 h-10 author-avatar">
             <img
               src="http://daisyui.com/tailwind-css-component-profile-1@56w.png"
               class="rounded-full"
@@ -45,7 +45,7 @@
       </div>
       <div class="widget-body pb-1 pr-14">
         <div class="authors-followed-container flex gap-x-3 items-center">
-          <div class="rounded-full w-12 h-12 author-avatar">
+          <div class="rounded-full w-10 h-10 author-avatar">
             <img
               src="http://daisyui.com/tailwind-css-component-profile-1@56w.png"
               class="rounded-full"
