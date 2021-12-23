@@ -1,13 +1,11 @@
 <template>
-  <div>
-    <Home />
-  </div>
+  <Home />
 </template>
 
 <script>
 import Home from '../modules/home.vue'
 
 export default {
-  components: { Home },
+  components: { Home }
 }
 </script>
