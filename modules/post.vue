@@ -1,8 +1,8 @@
 <template>
-  <main class='px-8 py-6 border-2 border-blue-500'>
-    <section class='border-2 border-blue-400 flex flex-col gap-y-5'>
-      <article-info class='border-2 border-gray-700 px-16' />
-      <article-body class='border-2 border-gray-700' />
+  <main class='px-8 py-6'>
+    <section class='flex flex-col gap-y-5'>
+      <article-info class='mx-16 article-info-container' />
+      <article-body class='' />
     </section>
   </main>
 </template>
@@ -14,3 +14,9 @@ export default {
   components: { ArticleBody, ArticleInfo }
 }
 </script>
+<style scoped>
+.article-info-container {
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.22);
+}
+</style>
