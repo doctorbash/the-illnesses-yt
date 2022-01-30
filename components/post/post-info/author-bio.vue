@@ -3,9 +3,9 @@
     <div class='author flex gap-x-3 items-center'>
       <div class='author-avatar w-14 h-14'>
         <img
+          alt=''
           class='rounded-full'
-          src='http://daisyui.com/tailwind-css-component-profile-1@56w.png'
-        />
+          src='http://daisyui.com/tailwind-css-component-profile-1@56w.png' />
       </div>
       <div class='author-meta flex flex-col'>
         <span class='author-name-text font-bold text-xl'>Jon Doe</span>
