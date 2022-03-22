@@ -1,7 +1,7 @@
 <template>
-  <div class="px-4">
-    <div class="widget flex flex-col items-center gap-y-5 py-6">
-      <div class="widget-title mb-3 px-3 flex flex-col">
+  <div class="add-post px-4">
+    <div class="widget flex flex-col items-center gap-y-5 px-3 py-6">
+      <div class="widget-title py-1 flex flex-col">
         <span class="widget-title-text text-4xl">Write an article</span>
       </div>
       <div class="widget-button p-3 flex items-center">
@@ -16,7 +16,6 @@
   background: rgba(45, 106, 79, 0.22);
 }
 .widget-title-text {
-  height: 90px;
   color: #40916c;
   font-weight: 400;
   line-height: 43px;
@@ -36,5 +35,23 @@
   text-align: center;
   letter-spacing: -0.408px;
   font-family: 'Carme', sans-serif;
+}
+
+@media all and (max-width: 993px) {
+  .widget-title-text {
+    font-size: 30px;
+  }
+}
+@media all and (max-width: 900px) {
+  .widget {
+    padding-left: unset;
+    padding-right: unset;
+  }
+}
+@media all and (max-width: 949px) {
+  .widget-button > button {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 }
 </style>

@@ -1,12 +1,16 @@
 <template>
-  <div class="px-4">
+  <div class="authors-suggestion px-4">
     <div class="widget flex flex-col items-center gap-y-5 py-6">
       <div class="widget-title mb-3">
         <span class="widget-title-text">Suggestions</span>
       </div>
       <div class="widget-body">
         <div class="authors-suggestion-continer flex flex-col gap-y-3">
-          <div class="author flex items-center justify-between gap-x-3 px-6">
+          <div
+            v-for="author in 4"
+            :key="author"
+            class="author flex items-center justify-between gap-x-3 p-3"
+          >
             <div class="author-avatar w-10 h-10">
               <img
                 src="http://daisyui.com/tailwind-css-component-profile-1@56w.png"
@@ -14,29 +18,7 @@
               />
             </div>
             <div class="author-name">
-              <span class="author-name-text"> Jon Doe </span>
-            </div>
-          </div>
-          <div class="author flex items-center justify-between gap-x-3 px-6">
-            <div class="author-avatar w-10 h-10">
-              <img
-                src="http://daisyui.com/tailwind-css-component-profile-1@56w.png"
-                class="rounded-full"
-              />
-            </div>
-            <div class="author-name">
-              <span class="author-name-text"> Jon Doe </span>
-            </div>
-          </div>
-          <div class="author flex items-center justify-between gap-x-3 px-6">
-            <div class="author-avatar w-10 h-10">
-              <img
-                src="http://daisyui.com/tailwind-css-component-profile-1@56w.png"
-                class="rounded-full"
-              />
-            </div>
-            <div class="author-name">
-              <span class="author-name-text"> Jon Doe </span>
+              <span class="author-name-text"> Jon Doe Doe Doe </span>
             </div>
           </div>
         </div>
@@ -56,7 +38,6 @@
   font-family: 'Arimo', sans-serif;
 }
 .author {
-  width: 250px;
   height: 72px;
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.22);
@@ -69,5 +50,23 @@
   font-weight: 400;
   line-height: 33px;
   font-family: 'Arima Madurai', cursive;
+}
+
+@media all and (max-width: 1199px) {
+  .author {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media all and (max-width: 889px) {
+  .author-name-text {
+    font-size: 15px;
+  }
+}
+@media all and (max-width: 743px) {
+  .author-name-text {
+    font-size: 12px;
+  }
 }
 </style>

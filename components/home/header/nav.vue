@@ -1,7 +1,7 @@
 <template>
   <div class="h-20 flex justify-between nav">
     <div class="logo-cover">
-      <div class="px-10">
+      <div class="px-10 logo-spacing">
         <span class="logo-text">The illnesses.</span>
       </div>
     </div>
