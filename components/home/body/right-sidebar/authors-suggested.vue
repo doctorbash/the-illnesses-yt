@@ -59,7 +59,7 @@
     flex-direction: column;
   }
 }
-@media all and (max-width: 889px) {
+@media all and (max-width: 907px) {
   .author-name-text {
     font-size: 15px;
   }
