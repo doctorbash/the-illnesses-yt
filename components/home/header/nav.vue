@@ -32,7 +32,6 @@
 </template>
 
 <style scoped>
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 .nav {
   background: #95d5b2;
   border: #52b788 2px solid;

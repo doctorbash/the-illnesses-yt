@@ -45,9 +45,6 @@
   </div>
 </template>
 <style scoped>
-@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@300&display=swap');
-
 .widget-title-text {
   width: 234px;
   height: 28px;

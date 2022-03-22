@@ -11,7 +11,6 @@
   </div>
 </template>
 <style scoped>
-@import url('https://fonts.googleapis.com/css2?family=Carme&display=swap');
 .widget {
   border-radius: 8px;
   background: rgba(45, 106, 79, 0.22);

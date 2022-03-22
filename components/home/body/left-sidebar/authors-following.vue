@@ -22,9 +22,6 @@
 </template>
 
 <style scoped>
-@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@300&display=swap');
-
 .widget {
   height: 498px;
   background: rgba(149, 213, 178, 0.4);

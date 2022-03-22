@@ -29,6 +29,7 @@ export default {
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
     '@nuxtjs/fontawesome',
+    '@nuxtjs/google-fonts'
   ],
 
   fontawesome: {
@@ -38,6 +39,20 @@ export default {
       solid: true,
       brands: true,
     },
+  },
+
+  googleFonts: {
+    families: {
+      'Abril+Fatface': true,
+      Inconsolata: true,
+      Inder: true,
+      Archivo: true,
+      Carme: true,
+      Arimo: true,
+      Arima: true,
+      // Madurai: [300],
+    },
+    // display: 'swap',
   },
 
   // Modules: https://go.nuxtjs.dev/config-modules

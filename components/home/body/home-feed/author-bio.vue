@@ -16,7 +16,6 @@
   </div>
 </template>
 <style scoped>
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Inder&display=swap');
 .author-name-text {
   color: #2d6a4f;
   font-family: 'Inconsolata', monospace;
