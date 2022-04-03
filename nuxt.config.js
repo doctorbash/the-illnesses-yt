@@ -49,10 +49,9 @@ export default {
       Archivo: true,
       Carme: true,
       Arimo: true,
-      Arima: true,
-      // Madurai: [300],
+      'Arima + Madurai': [300],
     },
-    // display: 'swap',
+    display: 'swap',
   },
 
   // Modules: https://go.nuxtjs.dev/config-modules

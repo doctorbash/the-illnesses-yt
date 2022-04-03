@@ -1,14 +1,15 @@
 <template>
-  <div class='post-title flex flex-col gap-2'>
-    <h1 class='post-title-text'>
-      What is omnicron - How to protect people from new variant of covid
+  <div class="post-title flex flex-col gap-2">
+    <h1 class="post-title-text">
+      The Omicron: the new variant of the Corona. Keep in mind it is more
+      powerful
     </h1>
-    <span class='bottom-line'></span>
+    <span class="bottom-line"></span>
   </div>
 </template>
 <script>
 export default {
-  name: 'PostTitle'
+  name: 'PostTitle',
 }
 </script>
 
@@ -16,7 +17,6 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
 
 .post-title-text {
-  width: 924.01px;
   color: #1b4332;
   font-family: 'Archivo', sans-serif;
   font-size: 24px;
