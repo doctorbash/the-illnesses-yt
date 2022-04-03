@@ -49,7 +49,7 @@ export default {
       Archivo: true,
       Carme: true,
       Arimo: true,
-      'Arima + Madurai': [300],
+      'Arima+Madurai': [300],
     },
     display: 'swap',
   },
